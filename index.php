@@ -22,11 +22,11 @@
 
   <section class="top-bar-section">
     <!-- Right Nav Section -->
-    <ul class="right">
+    <ul class="right" style="margin-top: 5px;">
       <li class="has-form">
         <div class="row collapse">
           <div class="large-8 small-9 columns">
-            <input type="text" placeholder="search">
+            <input type="text" placeholder="search" style="height: 2em;">
           </div>
           <div class="large-4 small-3 columns">
             <a href="#" class="alert button expand  fi-magnifying-glass size-18"></a>
@@ -43,12 +43,6 @@
         </ul>
       </li>
     </ul>
-
-    <!-- Left Nav Section -->
-    <ul class="left">
-    </ul>
-  </section>
-  <section class="top-bar-section" >
     <dl class="sub-nav">
       <dd class="active"><a href="#">Home</a></dd>
       <dt>|</dt>
@@ -66,45 +60,47 @@
     <div class="large-12 columns center-box">
      <div class="panel trans-container">
        <div class="row">
-        
         <div class="large-4 medium-4 columns home-blurb">
         <div class="text-center">
           <img  src="img/icons/chat-128.png" alt="">
-        </div> 
+        </div>
+        <h3 class="home-blurb-title">Discuss</h3> 
          <p>
-            <a href="http://foundation.zurb.com/docs">Foundation Documentation</a>
-            <br>
             Looking for a project to work on? Need some help but don't know anyone with 
             the skills needed? Or maybe you just want to network? With our new searching 
             tool finding people or getting help becomes so much easier.
           </p>
-          <a href="" class="button small">Search</a>
+          <div class="text-center home-button-container">
+            <a href="" class="button small home-button">Search</a>
+          </div>
        </div>
        <div class="large-4 medium-4 columns home-blurb">
          <div class="text-center">
           <img src="img/icons/stationery-02-128.png" alt="">
          </div>
+         <h3 class="home-blurb-title">Develop</h3>
          <p>
-            <a href="http://github.com/zurb/foundation">Foundation on Github</a>
-            <br>
             Looking for a project to work on? Need some help but don't know anyone with 
             the skills needed? Or maybe you just want to network? With our new searching 
             tool finding people or getting help becomes so much easier.
          </p>
-         <a href="" class="button small">Search</a>
+          <div class="text-center home-button-container">
+            <a href="" class="button small home-button">Search</a>
+          </div>
        </div>
        <div class="large-4 medium-4 columns home-blurb">
           <div class="text-center">
             <img src="img/icons/Data-Find-128.png" alt="">
           </div>
+         <h3 class="home-blurb-title">Discover</h3>
          <p>
-          <a href="http://twitter.com/foundationzurb">@foundationzurb</a>
-          <br>
             Looking for a project to work on? Need some help but don't know anyone with 
             the skills needed? Or maybe you just want to network? With our new searching 
             tool finding people or getting help becomes so much easier.
           </p>
-            <a href="" class="button small">Search</a>
+          <div class="text-center .home-button-container">
+            <a href="" class="button small home-button">Search</a>
+          </div>
        </div>        
      </div>
    </div>
